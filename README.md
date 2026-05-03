@@ -1,10 +1,10 @@
 # Predictive Maintenance for Industrial Automation
 *Applying Data Science and Machine Learning to reduce downtime in smart manufacturing.*
 
-## 📌 Project Overview
+## Project Overview
 This project utilizes the **AI4I 2020 Predictive Maintenance Dataset** to identify and predict mechanical failure patterns in production environments. As a Global Production Engineering (GPE) student, I focused on bridging the gap between raw sensor data and actionable maintenance insights.
 
-## 📊 Phase 1 & 2: Root Cause Analysis (RCA)
+## Phase 1 & 2: Root Cause Analysis (RCA)
 I analyzed 10,000 rows of sensor data to determine which factors actually drive machine failure.
 
 ### Key Engineering Insights:
@@ -14,7 +14,7 @@ I analyzed 10,000 rows of sensor data to determine which factors actually drive 
 
 ![Torque vs Speed Fingerprint](failure_Torque_vs_Rotational_Speed.png)
 
-## 🤖 Phase 3 & 4: Machine Learning & Optimization
+## Phase 3 & 4: Machine Learning & Optimization
 I developed a predictive model to classify potential failures before they occur.
 
 ### Model Evolution:
@@ -30,14 +30,14 @@ I developed a predictive model to classify potential failures before they occur.
 ### Critical Sensor Ranking:
 According to the model's feature importance analysis, **Torque** and **Rotational Speed** are the most critical predictors of machine health.
 
-![Feature Importance](Critical Sensor Ranking for Predictive Maintenance.png)
+![Feature Importance](Critical_Sensor_Ranking_for_Predictive_Maintenance.png)
 
-## 🛠️ Tech Stack
+## Tech Stack
 *   **Language:** Python 3.13.5
 *   **Libraries:** Pandas, Matplotlib, Seaborn, Scikit-Learn
 *   **Techniques:** GridSearchCV, Random Forest Ensembles, Ordinal Encoding, Feature Importance Analysis.
 
-## 🚀 Technical Considerations & Future Work
+## Technical Considerations & Future Work
 *   **Scaling:** Feature scaling was omitted as tree-based ensembles are scale-invariant.
 *   **Bagging:** Random Forest was chosen for its inherent bagging properties to prevent overfitting.
 *   **Next Steps:** Future iterations will explore **Gradient Boosting (XGBoost)** and **Threshold Tuning** to further improve the Recall-Precision trade-off for critical failure modes.
