@@ -1,11 +1,11 @@
-# Predictive Maintenance for Industrial Automation
-*Applying Data Science and Machine Learning to reduce downtime in smart manufacturing.*
+# Industrial Failure Diagnostics & Condition Monitoring
+*Analyzing sensor data to identify high-risk operational thresholds in smart manufacturing.*
 
 ## Project Overview
-This project utilizes the **AI4I 2020 Predictive Maintenance Dataset** to identify and predict mechanical failure patterns in production environments. As a Global Production Engineering (GPE) student, I focused on bridging the gap between raw sensor data and actionable maintenance insights.
+This project utilizes the AI4I 2020 dataset to perform **Diagnostic Analytics** on mechanical failure patterns. As a Global Production Engineering (GPE) student at TU Berlin, I developed this tool to bridge the gap between raw sensor data and **Root Cause Analysis (RCA)**.
 
-## Phase 1 & 2: Root Cause Analysis (RCA)
-I analyzed 10,000 rows of sensor data to determine which factors actually drive machine failure.
+## Phase 1: Diagnostic Insights (RCA)
+I analyzed 10,000 rows of industrial sensor data to isolate the variables that correlate most strongly with system failure.
 
 ### Key Engineering Insights:
 *   **The Thermal Myth:** Analysis showed only a **0.3K difference** in process temperature between healthy and failed machines. Thermal stress is a secondary factor in this specific dataset.
@@ -14,8 +14,8 @@ I analyzed 10,000 rows of sensor data to determine which factors actually drive 
 
 ![Torque vs Speed Fingerprint](failure_Torque_vs_Rotational_Speed.png)
 
-## Phase 3 & 4: Machine Learning & Optimization
-I developed a predictive model to classify potential failures before they occur.
+## Phase 2: Diagnostic Classification Model
+I developed a machine learning classifier to detect high-risk operational conditions in real-time
 
 ### Model Evolution:
 1.  **Baseline (Decision Tree):** Established a transparent "if-then" logic for engineers to follow.
